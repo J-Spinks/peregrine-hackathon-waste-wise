@@ -1,0 +1,142 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.container {
+  background: #0766ad;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+#output-container {
+  display: none;
+  background: #b1daf7;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+#output-container-two {
+  display: none;
+  background: #b1daf7;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+/* #output-container {
+
+  display: none;
+
+} */
+
+.title {
+  font-size: 2rem;
+  color: rgb(255, 254, 254);
+  margin-bottom: 20px;
+}
+
+.mission-statement{
+  color: rgb(255, 254, 254);
+
+}
+
+/* Form Styling */
+
+
+.form-structure {
+  padding: 20px;
+  background: #b1daf7;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 97%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #868484;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Food Order List */
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+h3 {
+  color: #444;
+}
+
+.centre {
+  margin-top: 20px;
+}
+
+#reset-calc-btn {
+  background-color: #dc3545;
+}
+
+#reset-calc-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
